@@ -1,5 +1,5 @@
 # Solution Information
-## Codeing Pattern Used:
+## Coding Pattern Used:
 Two Pointers Method was used for the solution of this program.
 1. Pointer 1: Was used to point at the front most index of the array
 2. Pointer 2: Was used to point at the last index of the array

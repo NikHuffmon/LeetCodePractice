@@ -1,4 +1,4 @@
-package Array_String_Practice.Q27_RemoveElement;
+package Q27_RemoveElement_Esy;
 
 public class Solution {
     public int removeElement(int[] nums, int val) {

@@ -1,4 +1,4 @@
-package Array_String_Practice.Q88_MergeSortedArray;
+package Q88_MergeSortedArray_Esy;
 
 public class Solution {
     public int removeElement(int[] nums, int val) {
