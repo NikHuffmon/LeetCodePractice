@@ -54,10 +54,10 @@ We have both of these defined becuase if we want to move the array contents 3 ti
 
 Let [A | B] be the array.
 Then, if we reverse the entire array, we would get...
-[B<sup>^</sub> | A <sub>^</sub>].
-Where B<sup>^</sub> and A <sub>^</sub> are all the elements in reverse order.
+[B<sup>^</sup> | A <sup>^</sup>].
+Where B<sup>^</sup> and A <sup>^</sup> are all the elements in reverse order.
 
-Then, if we reverse each section, A <sub>^</sub> and B<sup>^</sub> individually...
+Then, if we reverse each section, A <sup>^</sup> and B<sup>^</sup> individually...
 [B | A] is thus returned to us.
 
 Therefore, we can come to the conclusion, that this new array [B | A] has the elements that needed to be brought to the beginning, the last 3, B, to the front. And moved the front elements, A, to the end.
@@ -97,13 +97,13 @@ Our steps are:
 
 1. Reverse the Entire Array:
 [A | B] = [1, 2, 3, 4, 7, 8, 9]
-[B<sup>^</sub> | A <sub>^</sub>] = [9, 8, 7, 4, 3, 2, 1]
+[B<sup>^</sup> | A <sup>^</sup>] = [9, 8, 7, 4, 3, 2, 1]
 * Notice that our array is in reverse order.
 * However, if we notice each section separately, how could we undo the reversal?
     * If we reverse each section separately, we would get back to the original 
 
 2. Reverse A
-[B<sup>^</sub> | A ] = [9, 8, 7, 4, 3, 1, 2]
+[B<sup>^</sup> | A ] = [9, 8, 7, 4, 3, 1, 2]
 
 3. Reverse B
 [B | A ] = [3, 4, 7, 8, 9, 1, 2]
