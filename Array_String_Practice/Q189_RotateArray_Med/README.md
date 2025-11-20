@@ -44,7 +44,7 @@ Solution 1:
 Solution 2:
 * The idea behind this is a bit more complex, so we shall go with it mathematically, and then with an example.
 
-<bold>Mathematically:</bold>
+**<br>Mathematically:</br>**
 Say we have A, which represents every element that isn't k. Its thus, n - k.
 Say we have B, which represents the last k elements.
 
