@@ -29,9 +29,9 @@ The general rule and explanation of how the algorithm works.
     * Add the specific character, at the first string at index k, to the StringBuilder.
         * We know this is a valid prefix becuase it was checked against the entire array.
 5. Additional Conditional...
-* If our value k, which represents what index we need to check, is equal to the smallest length in the array...
-    * We break out from the loop, and just return the StringBuilder toString() value.
-       * We can do this because we know that any character checked after k, cannot be the prefix because its longer than the shortest length.
+    * If our value k, which represents what index we need to check, is equal to the smallest length in the array...
+        * We break out from the loop, and just return the StringBuilder toString() value.
+            * We can do this because we know that any character checked after k, cannot be the prefix because its longer than the shortest length.
 
 ## Time Complexity:
 1. Time: O(n+k)
