@@ -113,3 +113,18 @@ Our steps are:
 Conclusion:
 * By reversing the entire array, we are able to put the elements that need to be moved to the front, to the front. However, they are in reverse order.
 * By reversing each specific section, A and B, we are able to return them to their original format, and therefore efficiently reverse an array k times.
+
+## Time Complexity:
+### Solution 1:
+1. Time: O(n)
+    * Worse case scenario we loop through the entire array checking each index.
+
+2. Space: O(n)
+    * Worse case our newly allocated array holds every single element.
+
+### Solution 2:
+1. Time: O(n)
+    * Worst case scenario when we reverse, we choose horrible spots for our dividers, and therefore we go the entire array.
+
+2. Space: O(1)
+    * We are strictly using primitive types.

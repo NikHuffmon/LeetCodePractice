@@ -38,5 +38,17 @@ The Solution to these problems is as stated:
             * If ***haystack*** walked off, but ***needle*** still has words to check
                 * This woulld mean that ***haystack*** length is less than ***needle*** and therefore in the beginning of our program, we can just end early. Its impossible to find an index in a word that is less than the word we are looking for.
 
+## Time Complexity:
+1. Time: O(m * k)
+    * m checks every character in haystack. We are building our queue
+    * For each value in the queue, starting at an index in haystack...
+        * We compare this to the full length of needle each time.
+        * Meaning for each index, we start over at 0 at the length of needle.
+        * Therefore we are multiplicative since we are starting over each time against each new index of haystack.
+
+2. Space: O(m)
+    * A queue is used to store all the indices of haystack.
+    * Therefore, worst case is we have to store every index of haystack, which would be of length m.
+
 
 ## Examples: See Solution.java for examples

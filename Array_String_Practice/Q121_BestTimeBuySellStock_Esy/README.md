@@ -37,5 +37,12 @@ For this problem specificially, we faced several challenges.
 2. There are similar ways to do this problem using two loops
     * However, this would achieve a RunTime of O(n <sup>2</sup>) which isn't the optimized solution
 
+## Time Complexity:
+1. Time: O(n)
+    * In the worst case scenario, both pointers are walking the entire list towards each other.
+
+2. Space: O(1)
+    * We are only using primitive types.
+
 
 ## Examples: See Solution.java for examples

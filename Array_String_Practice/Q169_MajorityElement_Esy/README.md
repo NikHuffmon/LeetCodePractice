@@ -16,5 +16,12 @@ If the item isn't seen in our map, we can add the value, with default of 1 (valu
 ## The idea:
 Overall idea is to provide a fast-easy look-up while achieving an O(1) look-up time.
 
+## Time Complexity:
+1. Time: O(n)
+    * We loop through the array once worse-case scenario.
+
+2. Space: O(n)
+    * In the worst case, the HashMap contains every element in the array.
+
 
 ## Examples: See Solution.java for examples

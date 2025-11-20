@@ -17,4 +17,12 @@ Then, we can use our Two-Pointer method to handle moving the elements in the arr
 maintaing a form of sorted order: 
 * (Elements that are NOT val in beginning, and elements that are val in the end).
 
+## Time Complexity:
+1. Time: O(n)
+    * Our two pointers are at most traversing the array at most one.
+    * The worst case is we swap every single character and go from beginning to end.
+
+2. Space: O(1)
+    * We are using primitive types.
+
 ## Examples: See Solution.java for examples

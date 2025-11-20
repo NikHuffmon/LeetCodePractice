@@ -33,6 +33,15 @@ The general rule and explanation of how the algorithm works.
     * We break out from the loop, and just return the StringBuilder toString() value.
        * We can do this because we know that any character checked after k, cannot be the prefix because its longer than the shortest length.
 
+## Time Complexity:
+1. Time: O(n+k)
+    * n is the length of the array (The number of strings)
+    * k is the length of the shortest string we are comparing
+
+2. Space: O(n)
+    * This is the resulting prefix.
+        * Since we are allocating a StringBuilder that will contain the length of the prefix, it will be of length n.
+
 
 
 ## Examples: See Solution.java for examples

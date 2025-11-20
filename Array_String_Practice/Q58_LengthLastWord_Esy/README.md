@@ -18,5 +18,12 @@ This pattern basically was a pointer that pointed to the end of the word.
     * If count = 0, then that means we have NOT reached a word yet.
         * We continue to decrement the pointer
 
+## Time Complexity:
+1. Time: O(n)
+    * We are traversing a singular string to the beginning for the worst case. Which is of length n
+
+2. Space: O(1)
+    * We are using strictly primitive types.
+
 
 ## Examples: See Solution.java for examples
